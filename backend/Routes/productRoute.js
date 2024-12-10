@@ -11,6 +11,6 @@ router.get("/uploads/:imageName", (req, res) => {
 });
 
 router.delete("/:productId", productController.deleteProductById);
-router.get("/all-prods", productController.allProducts);
+router.get("/all-products", productController.allProducts);
 
 module.exports = router;
